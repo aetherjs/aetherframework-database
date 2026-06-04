@@ -1,0 +1,55 @@
+{
+  "name": "@aetherframework/database",
+  "version": "1.0.5",
+  "description": "Zero-dependency, multi-database integration for AetherJS API framework with advanced query builder and connection pooling",
+  "main": "index.js",
+  "type": "module", 
+  "types": "types.js",
+  "author": "Aether Framework Team",
+   "license": "MIT",
+  "keywords": [
+    "database",
+    "multi-database",
+    "query-builder",
+    "connection-pool",
+    "mysql",
+    "postgresql",
+    "redis",
+    "mongodb",
+    "sqlite",
+    "mssql",
+    "oracle",
+    "zero-dependency",
+    "aetherjs",
+    "orm",
+    "driver"
+  ],
+
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "jsdoc": "^4.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aetherframework/database.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aetherframework/database/issues",
+    "email": "support@aetherjs.org"
+  },
+  "homepage": "https://github.com/aetherframework/database#readme",
+  "files": [
+    "index.js",
+    "connection-pool.js",
+    "query-builder.js",
+    "drivers/",
+    "types.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
