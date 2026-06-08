@@ -1032,10 +1032,6 @@ class QueryBuilder extends EventEmitter {
     const metrics = this.getPerformanceMetrics();
 
     if (metrics.needsOptimization) {
-      console.log(
-        `Query optimization suggestions:`,
-        this.getOptimizationSuggestions(),
-      );
 
       // 自动优化建议
       if (this.query.type === "select" && this.query.columns.includes("*")) {

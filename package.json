@@ -1,6 +1,6 @@
 {
   "name": "@aetherframework/database",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Zero-dependency, multi-database integration for AetherJS API framework with advanced query builder and connection pooling",
   "main": "index.js",
   "type": "module", 
@@ -36,13 +36,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aetherframework/database.git"
+    "url": "https://github.com/aetherframework-database.git"
   },
   "bugs": {
-    "url": "https://github.com/aetherframework/database/issues",
+    "url": "https://github.com/aetherframework-database/issues",
     "email": "support@aetherjs.org"
   },
-  "homepage": "https://github.com/aetherframework/database#readme",
+  "homepage": "https://github.com/aetherframework-database#readme",
   "files": [
     "index.js",
     "connection-pool.js",
